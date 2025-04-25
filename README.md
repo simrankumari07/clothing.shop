@@ -41,51 +41,70 @@ Steps to Set Up Locally
 # Clone the repository:--
 
 bash
+
 Copy
+
 Edit
+
 git clone https://github.com/your-username/clothing-store-ecom.git
 
 # Navigate to the project directory:
 
 bash
+
 Copy
+
 Edit
+
 cd clothing-store-ecom
 
 # Install the dependencies for both client and server:
 
-# Navigate to the client folder and install dependencies:
+Navigate to the client folder and install dependencies:
 
 bash
+
 Copy
+
 Edit
+
 cd client
+
 npm install
-# Navigate to the root project folder (where server.js is) and install dependencies:
+
+Navigate to the root project folder (where server.js is) and install dependencies:
 
 bash
+
 Copy
+
 Edit
+
 cd ..
+
 npm install
+
 Set up environment variables:
 
-# Create a .env file in the root directory and provide the following values:
+ Create a .env file in the root directory and provide the following values:
 
-bash
-Copy
-Edit
+bash,
+Copy,
+Edit,
 MONGO_URI=your-mongodb-connection-string
+
 JWT_SECRET=your-jwt-secret
+
 STRIPE_SECRET_KEY=your-stripe-secret-key (if using Stripe)
+
 # Start the development server:
 
-# In the root project directory, start both the server and the client:
+In the root project directory, start both the server and the client:
 
-bash
-Copy
-Edit
-npm run dev
+bash,
+Copy,
+Edit,
+npm run dev,
 This will start the server on http://localhost:5000 and the React client on http://localhost:3000.
 
 # Running the Project
